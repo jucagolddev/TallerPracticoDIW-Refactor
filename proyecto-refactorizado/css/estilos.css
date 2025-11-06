@@ -1,0 +1,195 @@
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/*PALETA DE COLORES  */
+:root {
+  --pumpkin: #ff6d00;
+  --safety-orange: #ff7900;
+  --ut-orange: #ff8500;
+  --princeton-orange: #ff9100;
+  --orange-peel: #ff9e00;
+  --russian-violet: #240046;
+  --persian-indigo: #3c096c;
+  --tekhelet: #5a189a;
+  --french-violet: #7b2cbf;
+  --amethyst: #9d4edd;
+}
+
+/*ESTILOS GENERALES*/
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--russian-violet);
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-style: italic;
+  color: var(--orange-peel);
+}
+
+/*NAVEGACIÓN MEJORADA*/
+nav {
+  background-color: var(--persian-indigo);
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: 'Poppins', Arial, sans-serif;
+  padding: 15px 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--tekhelet);
+  color: var(--princeton-orange);
+}
+
+nav a.activo {
+  background-color: var(--russian-violet);
+  color: var(--orange-peel);
+}
+
+main {
+  padding: 20px 40px;
+  min-height: 60vh;
+}
+
+.caja-contenido {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid var(--french-violet);
+}
+
+h2 {
+  color: var(--tekhelet);
+  border-bottom: 2px solid var(--amethyst);
+  padding-bottom: 5px;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.lista-habilidades {
+  list-style: square;
+  padding-left: 20px;
+  color: var(--persian-indigo);
+}
+
+.lista-habilidades li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: var(--russian-violet);
+  color: #eee;
+  padding: 20px 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+footer .copy-peq {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+  color: var(--ut-orange);
+}
+
+/*FORMULARIO DE CONTACTO*/
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formulario-contacto label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--tekhelet);
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 2px solid var(--french-violet);
+  border-radius: 4px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus {
+  outline: none;
+  border-color: var(--amethyst);
+}
+
+.formulario-contacto textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.formulario-contacto button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: var(--pumpkin);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  font-family: 'Poppins', Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+  background-color: var(--safety-orange);
+}
