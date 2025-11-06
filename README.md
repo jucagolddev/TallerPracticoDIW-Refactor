@@ -1,2 +1,2 @@
 # TallerPracticoDIW-Refactor
-Repositorio dnd trabajaremos sobre un código HTML con CSS, lo limpiaremos y crearemos un CSS propio desde el que manejaremos las 3 paginas HTML de las cuales una y su formulario lo tengo que crear yo
+Taller en el que se nos dan 2 códigos HTML y tenemos que sacar el CSS interno, crearlo externo y hacer un HTML de contacto, mediante pautas ir refactorizando y mejorando el código
